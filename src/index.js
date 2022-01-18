@@ -1,18 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Routes, Route, BrowserRouter as Router } from 'react-router-dom';
 import './index.css';
 import './styles/bakery-styles.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
+import ElementsNative from './components/Elements/Elements.native';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+const routing = (
+  <>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/elements" element={<ElementsNative />} />
+      </Routes>
+    </Router>
+  </>
+  )
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+ReactDOM.render(routing, document.getElementById('root'));
 reportWebVitals();
