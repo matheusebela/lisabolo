@@ -70,7 +70,7 @@ const HomeNative = () => {
             <div className="banner-content col-lg-10 col-md-12 justify-content-center">
               <h6 className="text-uppercase">Whenever we bake, bake with our heart</h6>
               <h1>
-                Love with baking items
+                Encontro dos doces
               </h1>
               <p className="text-white mx-auto">
                 Since Americans in the South began roasting pigs publicly, Barbecues have been a staple of North American living. For many, grilling becomes a routine mealtime activity.
