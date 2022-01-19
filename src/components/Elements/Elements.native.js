@@ -3,6 +3,18 @@ import React from 'react';
 const ElementsNative = () => {
   return (
     <>
+      <section className="banner-area relative about-banner" id="home">
+        <div className="overlay overlay-bg"></div>
+        <div className="container">
+          <div className="row d-flex align-items-center justify-content-center">
+            <div className="about-content col-lg-12">
+              <h1 className="text-white">
+                Exemplo de Elementos do Layout
+              </h1>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="sample-text-area">
         <div className="container">
           <h3 className="text-heading">Text Sample</h3>
@@ -180,7 +192,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-1" role="progressbar" style={{width: '80%'}} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-1" role="progressbar" style={{ width: '80%' }} aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -190,7 +202,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-2" role="progressbar" style={{width: '30%'}} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-2" role="progressbar" style={{ width: '30%' }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -200,7 +212,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-3" role="progressbar" style={{width: '55%'}} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-3" role="progressbar" style={{ width: '55%' }} aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -210,7 +222,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-4" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-4" role="progressbar" style={{ width: '60%' }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -220,7 +232,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-5" role="progressbar" style={{width: '40%'}} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-5" role="progressbar" style={{ width: '40%' }} aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -230,7 +242,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-6" role="progressbar" style={{width: '70%'}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-6" role="progressbar" style={{ width: '70%' }} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -240,7 +252,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-7" role="progressbar" style={{width: '30%'}} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-7" role="progressbar" style={{ width: '30%' }} aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -250,7 +262,7 @@ const ElementsNative = () => {
                   <div className="visit">645032</div>
                   <div className="percentage">
                     <div className="progress">
-                      <div className="progress-bar color-8" role="progressbar" style={{width: '60%'}} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div className="progress-bar color-8" role="progressbar" style={{ width: '60%' }} aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                   </div>
                 </div>
@@ -261,28 +273,28 @@ const ElementsNative = () => {
             <h3>Image Gallery</h3>
             <div className="row gallery-item">
               <div className="col-md-4">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-4">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-4">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-6">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-6">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-4">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-4">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
               <div className="col-md-4">
-                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)'}}></div></a>
+                <a href="https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg" className="img-gal"><div className="single-gallery-image" style={{ background: 'url(https://himalayafalooda.com.au/wp-content/uploads/2021/07/rainbow_cake_20402_16x9.jpg)' }}></div></a>
               </div>
             </div>
           </div>
@@ -367,159 +379,159 @@ const ElementsNative = () => {
                   <div className="input-group-icon mt-10">
                     <div className="icon"><i className="fa fa-plane" aria-hidden="true"></i></div>
                     <div className="form-select" id="default-select">
-                    <select style={{display: 'none'}}>
-                      <option value="1">City</option>
-                      <option value="1">Dhaka</option>
-                      <option value="1">Dilli</option>
-                      <option value="1">Newyork</option>
-                      <option value="1">Islamabad</option>
-                    </select><div className="nice-select" tabindex="0"><span className="current">City</span><ul className="list"><li data-value="1" className="option selected focus">City</li><li data-value="1" className="option">Dhaka</li><li data-value="1" className="option">Dilli</li><li data-value="1" className="option">Newyork</li><li data-value="1" className="option">Islamabad</li></ul></div>
+                      <select style={{ display: 'none' }}>
+                        <option value="1">City</option>
+                        <option value="1">Dhaka</option>
+                        <option value="1">Dilli</option>
+                        <option value="1">Newyork</option>
+                        <option value="1">Islamabad</option>
+                      </select><div className="nice-select" tabindex="0"><span className="current">City</span><ul className="list"><li data-value="1" className="option selected focus">City</li><li data-value="1" className="option">Dhaka</li><li data-value="1" className="option">Dilli</li><li data-value="1" className="option">Newyork</li><li data-value="1" className="option">Islamabad</li></ul></div>
+                    </div>
                   </div>
+                  <div className="input-group-icon mt-10">
+                    <div className="icon"><i className="fa fa-globe" aria-hidden="true"></i></div>
+                    <div className="form-select" id="default-select">
+                      <select style={{ display: 'none' }}>
+                        <option value="1">Country</option>
+                        <option value="1">Bangladesh</option>
+                        <option value="1">India</option>
+                        <option value="1">England</option>
+                        <option value="1">Srilanka</option>
+                      </select><div className="nice-select" tabindex="0"><span className="current">Country</span><ul className="list"><li data-value="1" className="option selected">Country</li><li data-value="1" className="option">Bangladesh</li><li data-value="1" className="option">India</li><li data-value="1" className="option">England</li><li data-value="1" className="option">Srilanka</li></ul></div>
+                    </div>
+                  </div>
+                  <div className="mt-10">
+                    <textarea className="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required=""></textarea>
+                  </div>
+                  <div className="mt-10">
+                    <input type="text" name="first_name" placeholder="Primary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'" required="" className="single-input-primary" />
+                  </div>
+                  <div className="mt-10">
+                    <input type="text" name="first_name" placeholder="Accent color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Accent color'" required="" className="single-input-accent" />
+                  </div>
+                  <div className="mt-10">
+                    <input type="text" name="first_name" placeholder="Secondary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'" required="" className="single-input-secondary" />
+                  </div>
+                </form>
               </div>
-              <div className="input-group-icon mt-10">
-                <div className="icon"><i className="fa fa-globe" aria-hidden="true"></i></div>
-                <div className="form-select" id="default-select">
-                <select style={{display: 'none'}}>
-                  <option value="1">Country</option>
-                  <option value="1">Bangladesh</option>
-                  <option value="1">India</option>
-                  <option value="1">England</option>
-                  <option value="1">Srilanka</option>
-                </select><div className="nice-select" tabindex="0"><span className="current">Country</span><ul className="list"><li data-value="1" className="option selected">Country</li><li data-value="1" className="option">Bangladesh</li><li data-value="1" className="option">India</li><li data-value="1" className="option">England</li><li data-value="1" className="option">Srilanka</li></ul></div>
+              <div className="col-lg-3 col-md-4 mt-sm-30 element-wrap">
+                <div className="single-element-widget">
+                  <h3 className="mb-30">Switches</h3>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>01. Sample Switch</p>
+                    <div className="primary-switch">
+                      <input type="checkbox" id="default-switch" />
+                      <label for="default-switch"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>02. Primary Color Switch</p>
+                    <div className="primary-switch">
+                      <input type="checkbox" id="primary-switch" checked="" />
+                      <label for="primary-switch"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>03. Confirm Color Switch</p>
+                    <div className="confirm-switch">
+                      <input type="checkbox" id="confirm-switch" checked="" />
+                      <label for="confirm-switch"></label>
+                    </div>
+                  </div>
+                </div>
+                <div className="single-element-widget">
+                  <h3 className="mb-30">Selectboxes</h3>
+                  <div className="default-select" id="default-select">
+                    <select style={{ display: 'none' }}>
+                      <option value="1">English</option>
+                      <option value="1">Spanish</option>
+                      <option value="1">Arabic</option>
+                      <option value="1">Portuguise</option>
+                      <option value="1">Bengali</option>
+                    </select><div className="nice-select" tabindex="0"><span className="current">English</span><ul className="list"><li data-value="1" className="option selected">English</li><li data-value="1" className="option">Spanish</li><li data-value="1" className="option">Arabic</li><li data-value="1" className="option">Portuguise</li><li data-value="1" className="option">Bengali</li></ul></div>
+                  </div>
+                </div>
+                <div className="single-element-widget">
+                  <h3 className="mb-30">Checkboxes</h3>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>01. Sample Checkbox</p>
+                    <div className="primary-checkbox">
+                      <input type="checkbox" id="default-checkbox" />
+                      <label for="default-checkbox"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>02. Primary Color Checkbox</p>
+                    <div className="primary-checkbox">
+                      <input type="checkbox" id="primary-checkbox" checked="" />
+                      <label for="primary-checkbox"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>03. Confirm Color Checkbox</p>
+                    <div className="confirm-checkbox">
+                      <input type="checkbox" id="confirm-checkbox" />
+                      <label for="confirm-checkbox"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>04. Disabled Checkbox</p>
+                    <div className="disabled-checkbox">
+                      <input type="checkbox" id="disabled-checkbox" disabled="" />
+                      <label for="disabled-checkbox"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>05. Disabled Checkbox active</p>
+                    <div className="disabled-checkbox">
+                      <input type="checkbox" id="disabled-checkbox-active" checked="" disabled="" />
+                      <label for="disabled-checkbox-active"></label>
+                    </div>
+                  </div>
+                </div>
+                <div className="single-element-widget">
+                  <h3 className="mb-30">Radios</h3>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>01. Sample radio</p>
+                    <div className="primary-radio">
+                      <input type="checkbox" id="default-radio" />
+                      <label for="default-radio"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>02. Primary Color radio</p>
+                    <div className="primary-radio">
+                      <input type="checkbox" id="primary-radio" checked="" />
+                      <label for="primary-radio"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>03. Confirm Color radio</p>
+                    <div className="confirm-radio">
+                      <input type="checkbox" id="confirm-radio" checked="" />
+                      <label for="confirm-radio"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>04. Disabled radio</p>
+                    <div className="disabled-radio">
+                      <input type="checkbox" id="disabled-radio" disabled="" />
+                      <label for="disabled-radio"></label>
+                    </div>
+                  </div>
+                  <div className="switch-wrap d-flex justify-content-between">
+                    <p>05. Disabled radio active</p>
+                    <div className="disabled-radio">
+                      <input type="checkbox" id="disabled-radio-active" checked="" disabled="" />
+                      <label for="disabled-radio-active"></label>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="mt-10">
-              <textarea className="single-textarea" placeholder="Message" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Message'" required=""></textarea>
-            </div>
-            <div className="mt-10">
-              <input type="text" name="first_name" placeholder="Primary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Primary color'" required="" className="single-input-primary" />
-            </div>
-            <div className="mt-10">
-              <input type="text" name="first_name" placeholder="Accent color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Accent color'" required="" className="single-input-accent" />
-            </div>
-            <div className="mt-10">
-              <input type="text" name="first_name" placeholder="Secondary color" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Secondary color'" required="" className="single-input-secondary" />
-            </div>
-          </form>
-        </div>
-        <div className="col-lg-3 col-md-4 mt-sm-30 element-wrap">
-          <div className="single-element-widget">
-            <h3 className="mb-30">Switches</h3>
-            <div className="switch-wrap d-flex justify-content-between">
-              <p>01. Sample Switch</p>
-              <div className="primary-switch">
-                <input type="checkbox" id="default-switch" />
-                  <label for="default-switch"></label>
-              </div>
-            </div>
-            <div className="switch-wrap d-flex justify-content-between">
-              <p>02. Primary Color Switch</p>
-              <div className="primary-switch">
-                <input type="checkbox" id="primary-switch" checked="" />
-                  <label for="primary-switch"></label>
-              </div>
-            </div>
-            <div className="switch-wrap d-flex justify-content-between">
-              <p>03. Confirm Color Switch</p>
-              <div className="confirm-switch">
-                <input type="checkbox" id="confirm-switch" checked="" />
-                  <label for="confirm-switch"></label>
-              </div>
-            </div>
-          </div>
-          <div className="single-element-widget">
-            <h3 className="mb-30">Selectboxes</h3>
-            <div className="default-select" id="default-select">
-            <select style={{display: 'none'}}>
-              <option value="1">English</option>
-              <option value="1">Spanish</option>
-              <option value="1">Arabic</option>
-              <option value="1">Portuguise</option>
-              <option value="1">Bengali</option>
-            </select><div className="nice-select" tabindex="0"><span className="current">English</span><ul className="list"><li data-value="1" className="option selected">English</li><li data-value="1" className="option">Spanish</li><li data-value="1" className="option">Arabic</li><li data-value="1" className="option">Portuguise</li><li data-value="1" className="option">Bengali</li></ul></div>
-          </div>
-        </div>
-        <div className="single-element-widget">
-          <h3 className="mb-30">Checkboxes</h3>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>01. Sample Checkbox</p>
-            <div className="primary-checkbox">
-              <input type="checkbox" id="default-checkbox" />
-                <label for="default-checkbox"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>02. Primary Color Checkbox</p>
-            <div className="primary-checkbox">
-              <input type="checkbox" id="primary-checkbox" checked="" />
-                <label for="primary-checkbox"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>03. Confirm Color Checkbox</p>
-            <div className="confirm-checkbox">
-              <input type="checkbox" id="confirm-checkbox" />
-                <label for="confirm-checkbox"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>04. Disabled Checkbox</p>
-            <div className="disabled-checkbox">
-              <input type="checkbox" id="disabled-checkbox" disabled="" />
-                <label for="disabled-checkbox"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>05. Disabled Checkbox active</p>
-            <div className="disabled-checkbox">
-              <input type="checkbox" id="disabled-checkbox-active" checked="" disabled="" />
-                <label for="disabled-checkbox-active"></label>
-            </div>
-          </div>
-        </div>
-        <div className="single-element-widget">
-          <h3 className="mb-30">Radios</h3>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>01. Sample radio</p>
-            <div className="primary-radio">
-              <input type="checkbox" id="default-radio" />
-                <label for="default-radio"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>02. Primary Color radio</p>
-            <div className="primary-radio">
-              <input type="checkbox" id="primary-radio" checked="" />
-                <label for="primary-radio"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>03. Confirm Color radio</p>
-            <div className="confirm-radio">
-              <input type="checkbox" id="confirm-radio" checked="" />
-                <label for="confirm-radio"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>04. Disabled radio</p>
-            <div className="disabled-radio">
-              <input type="checkbox" id="disabled-radio" disabled="" />
-                <label for="disabled-radio"></label>
-            </div>
-          </div>
-          <div className="switch-wrap d-flex justify-content-between">
-            <p>05. Disabled radio active</p>
-            <div className="disabled-radio">
-              <input type="checkbox" id="disabled-radio-active" checked="" disabled="" />
-                <label for="disabled-radio-active"></label>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div >
-</div >
-</div >
+          </div >
+        </div >
+      </div >
     </>
   );
 };
