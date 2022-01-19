@@ -9,6 +9,7 @@ import ElementsNative from './components/Elements/Elements.native';
 import Header from './components/Header';
 import Footer from './components/Footer/Footer.container';
 import FormNative from './components/Form/Form.native';
+import PartyForm from './components/PartyForm/PartyForm.container';
 
 const routing = (
   <>
@@ -17,7 +18,7 @@ const routing = (
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/elements" element={<ElementsNative />} />
-        <Route path="/festa" element={<FormNative />} />
+        <Route path="/festa" element={<PartyForm />} />
       </Routes>
       <Footer />
     </Router>
