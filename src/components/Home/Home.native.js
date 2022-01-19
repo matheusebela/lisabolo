@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer.container';
 
 const HomeNative = () => {
   return (
@@ -40,24 +41,11 @@ const HomeNative = () => {
             </a>
             <nav id="nav-menu-container">
               <ul className="nav-menu sf-js-enabled sf-arrows">
-                <li className="menu-active"><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li className="menu-has-children"><a href="" className="sf-with-ul">Blog</a>
-                  <ul>
-                    <li><a href="blog-home.html">Blog Home</a></li>
-                    <li><a href="blog-single.html">Blog Single</a></li>
-                    <li className="menu-has-children"><a href="" className="sf-with-ul">Level 2</a>
-                      <ul>
-                        <li><a href="#">Item One</a></li>
-                        <li><a href="#">Item Two</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li><a href="elements.html">Elements</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li className="menu-active"><a href="index.html">Página Inicial</a></li>
+                <li><a href="about.html">Quem somos</a></li>
+                <li><a href="menu.html">Lista de Produtos</a></li>
+                <li><a href="team.html">Monte sua festa</a></li>
+                <li><a href="contact.html">Fale Conosco</a></li>
               </ul>
             </nav>
           </div>
@@ -75,11 +63,12 @@ const HomeNative = () => {
               <p className="text-white mx-auto">
                 Since Americans in the South began roasting pigs publicly, Barbecues have been a staple of North American living. For many, grilling becomes a routine mealtime activity.
               </p>
-              <a href="#" className="primary-btn squire text-uppercase mt-10">Check Our Menu</a>
+              <a href="#" className="primary-btn squire text-uppercase mt-10">Ver lista de produtos</a>
             </div>
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 };
