@@ -19,13 +19,35 @@ const PartyFormNative = (props) => {
 		setQtdCriancas(e.target.value);
 	};
 
-	const handleSubmit = (e) => {
-		e.preventDefault()
-	};
-
   return (
     <>
-      <h1 onClick={() => { onHandleClick(); }}>{qtdAdultos}</h1>
+      <section className="container border-top-generic">
+        <div className="sample-text-area">
+          <div className="section-top-border">
+            <div className="row">
+              <div className="col-lg-8 col-md-8">
+                <div className="container">
+                  <h3 className="mb-30"> Monte sua Festa</h3>
+                  <blockquote className="generic-blockquote" id="text">
+                    You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. here are 4 easy steps to follow for good DVD replication results:
+                  </blockquote>
+                </div>
+                <form action="#">
+                  <div className="mt-10">
+                    <input type="text" name="qtdAdultos" placeholder="Quantidade de adultos" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Quantidade de adultos'" required="" className="single-input" value={qtdAdultos} onChange={handleChangeAdulto}/> 
+                  </div>
+                  <div className="mt-10">
+                    <input type="text" name="qtdCriancas" placeholder="Quantidade de crianças" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Quantidade de adultos'" required="" className="single-input" value={qtdCriancas} onChange={handleChangeCriancas}/>
+                  </div>
+                </form>
+                  <div className="button-group-area mt-40" id="btn-area">
+                    <button className="genric-btn primary circle" id="send-btn" type='button' onClick={() => { onHandleClick(); }}>Enviar</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };

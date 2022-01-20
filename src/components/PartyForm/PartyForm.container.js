@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import PartyFormNative from "./PartyForm.native";
 
 const PartyForm = () => {
-  const [qtdAdultos, setQtdAdultos] = useState(23);
-	const [qtdCriancas, setQtdCriancas] = useState(55);
+  const [qtdAdultos, setQtdAdultos] = useState();
+	const [qtdCriancas, setQtdCriancas] = useState();
 
 	const onHandleClick = () => {
-		console.log("TESTANDO");
+		console.log("Adultos: "+qtdAdultos+"\nCrianças: "+qtdCriancas);
 	};
 
   return (

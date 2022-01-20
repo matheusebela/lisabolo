@@ -8,7 +8,6 @@ import Home from './components/Home';
 import ElementsNative from './components/Elements/Elements.native';
 import Header from './components/Header';
 import Footer from './components/Footer/Footer.container';
-import FormNative from './components/Form/Form.native';
 import PartyForm from './components/PartyForm/PartyForm.container';
 
 const routing = (
