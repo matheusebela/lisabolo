@@ -17,7 +17,7 @@ const routing = (
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/elements" element={<ElementsNative />} />
-        <Route path="/festa" element={<PartyForm />} />
+        <Route path="/monte-sua-festa" element={<PartyForm />} />
       </Routes>
       <Footer />
     </Router>

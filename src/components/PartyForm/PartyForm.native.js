@@ -34,10 +34,10 @@ const PartyFormNative = (props) => {
                 </div>
                 <form action="#">
                   <div className="mt-10">
-                    <input type="text" name="qtdAdultos" placeholder="Quantidade de adultos" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Quantidade de adultos'" required="" className="single-input" value={qtdAdultos} onChange={handleChangeAdulto}/> 
+                    <input type="text" name="qtdAdultos" placeholder="Quantidade de adultos" onblur="this.placeholder = 'Quantidade de adultos'" required="" className="single-input" value={qtdAdultos} onChange={handleChangeAdulto}/> 
                   </div>
                   <div className="mt-10">
-                    <input type="text" name="qtdCriancas" placeholder="Quantidade de crianças" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Quantidade de adultos'" required="" className="single-input" value={qtdCriancas} onChange={handleChangeCriancas}/>
+                    <input type="text" name="qtdCriancas" placeholder="Quantidade de crianças" onblur="this.placeholder = 'Quantidade de adultos'" required="" className="single-input" value={qtdCriancas} onChange={handleChangeCriancas}/>
                   </div>
                 </form>
                   <div className="button-group-area mt-40" id="btn-area">
