@@ -16,3 +16,7 @@
     #text {
       text-align: justify;
     }
+
+    #sendWhatsapp {
+      display: none;
+    }
