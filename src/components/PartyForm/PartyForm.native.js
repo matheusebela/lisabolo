@@ -43,7 +43,7 @@ const PartyFormNative = (props) => {
                 </form>
                   <div className="button-group-area mt-40" id="btn-area">
                     <button className="genric-btn primary circle" id="send-btn" type='button' onClick={() => { onHandleClick(); }}>Enviar</button>
-                    <a id="sendWhatsapp" href={target}>Whatsapp</a>
+                    <a id="sendWhatsapp" href={target} target="_blank" rel="noreferrer">Whatsapp</a>
                   </div>
               </div>
             </div>
