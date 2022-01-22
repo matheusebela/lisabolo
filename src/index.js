@@ -8,6 +8,7 @@ import Home from './components/Home';
 import ElementsNative from './components/Elements/Elements.native';
 import Header from './components/Header';
 import Footer from './components/Footer/Footer.container';
+import PartyForm from './components/PartyForm/PartyForm.container';
 
 const routing = (
   <>
@@ -16,6 +17,7 @@ const routing = (
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/elements" element={<ElementsNative />} />
+        <Route path="/monte-sua-festa" element={<PartyForm />} />
       </Routes>
       <Footer />
     </Router>

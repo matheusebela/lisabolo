@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 
 const HeaderNative = () => {
   return (
@@ -40,11 +41,11 @@ const HeaderNative = () => {
             </a>
             <nav id="nav-menu-container">
               <ul className="nav-menu sf-js-enabled sf-arrows">
-                <li className="menu-active"><a href="index.html">Página Inicial</a></li>
-                <li><a href="about.html">Quem somos</a></li>
-                <li><a href="menu.html">Lista de Produtos</a></li>
-                <li><a href="team.html">Monte sua festa</a></li>
-                <li><a href="contact.html">Fale Conosco</a></li>
+                <Link title="Home" to="/">Página Inicial</Link>
+                <Link title="Fale conosco" to="/">Quem somos</Link>
+                <Link title="Lista de produtos" to="/">Lista de Produtos</Link>
+                <Link title="Monte sua festa" to="/monte-sua-festa">Monte sua festa</Link>
+                <Link title="Fale conosco" to="/">Fale Conosco</Link>
               </ul>
             </nav>
           </div>
