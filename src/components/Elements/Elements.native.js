@@ -1,4 +1,5 @@
 import React from 'react';
+import Tabs from './examples/Tab';
 
 const ElementsNative = () => {
   return (
@@ -532,6 +533,75 @@ const ElementsNative = () => {
           </div >
         </div >
       </div >
+      <section class="menu-list-area section-gap">
+        <div class="container">
+          <div class="menu-cat mx-auto">
+            <ul class="nav nav-pills" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link" id="pizza-tab" data-toggle="pill" href="#pizza" role="tab" aria-controls="pizza" aria-selected="false">Pizza</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active show" id="pills-bread-tab" data-toggle="pill" href="#pills-bread" role="tab" aria-controls="pills-bread" aria-selected="true">Breads</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-burger-tab" data-toggle="pill" href="#pills-burger" role="tab" aria-controls="pills-burger" aria-selected="false">Burgers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-chicken-tab" data-toggle="pill" href="#pills-chicken" role="tab" aria-controls="pills-chicken" aria-selected="false">Chicken</a>
+              </li>
+            </ul>
+          </div>
+          <br />
+          <br />
+          <div class="single-menu-list row justify-content-between align-items-center">
+            <div class="col-lg-9">
+              <a href="#"><h4>Pizza Americano</h4></a>
+              <p>
+                Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is becoming more common due to rapid advance.
+              </p>
+            </div>
+            <div class="col-lg-3 flex-row d-flex price-size">
+              <div class="s-price col">
+                <h4>6”</h4>
+                <span>$15</span>
+              </div>
+              <div class="s-price col">
+                <h4>10”</h4>
+                <span>$20</span>
+              </div>
+              <div class="s-price col">
+                <h4>14”</h4>
+                <span>$25</span>
+              </div>
+            </div>
+          </div>
+          <div class="single-menu-list row justify-content-between align-items-center">
+            <div class="col-lg-9">
+              <a href="#"><h4>Pizza Americano</h4></a>
+              <p>
+                Usage of the Internet is becoming more common due to rapid advance. Usage of the Internet is becoming more common due to rapid advance.
+              </p>
+            </div>
+            <div class="col-lg-3 flex-row d-flex price-size">
+              <div class="s-price col">
+                <h4>6”</h4>
+                <span>$15</span>
+              </div>
+              <div class="s-price col">
+                <h4>10”</h4>
+                <span>$20</span>
+              </div>
+              <div class="s-price col">
+                <h4>14”</h4>
+                <span>$25</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="container">
+        <Tabs />
+      </div>
     </>
   );
 };
