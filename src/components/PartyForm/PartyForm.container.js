@@ -6,7 +6,7 @@ const PartyForm = () => {
 	const [qtdCriancas, setQtdCriancas] = useState();
   
   let number = '11930175657'  
-  let msg = 'A lua pinguante é uma obra de arte. Olá, estou planejando uma festa para '+ qtdAdultos +' adultos e ' + qtdCriancas + ' crianças.'
+  let msg = 'Olá, estou planejando uma festa para '+ qtdAdultos +' adultos e ' + qtdCriancas + ' crianças.'
   let target = `https://api.whatsapp.com/send?phone=${encodeURIComponent(number)}&text=${encodeURIComponent(msg)}`
 
 	const onHandleClick = () => {
