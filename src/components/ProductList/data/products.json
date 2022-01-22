@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Bolo de brigadeiro",
+    "type": "cake",
+    "options": [
+      "Massa branca ou Chocolate",
+      "Recheio: brigadeiro tradicional, brigadeiro com morango ou leite ninho, brigadeiro gourmet"
+    ]
+  },
+  {
+    "title": "Bolos Redvelvet",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Bolo de Frutas",
+    "type": "cake",
+    "options": [
+      "abacaxi, morango, pessego, cereja ou damasco"
+    ]
+  },
+  {
+    "title": "Bolo Gelado",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Bolos de mousse",
+    "type": "cake",
+    "options": ["Limão ou Maracujá"]
+  },
+  {
+    "title": "Bolo de Prestígio",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Bolo de Churros",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Bolo de Nozes",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Bolo de Cocô",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Floresta Negra",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Floresta Branca",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Doce de Leite com ameixa",
+    "type": "cake",
+    "options": []
+  },
+  {
+    "title": "Bolo Trufado",
+    "type": "cake",
+    "options": ["Ao leite belga ou branco"]
+  },
+  {
+    "title": "Torta",
+    "type": "pie",
+    "options": [
+      "Limão",
+      "Morango"
+    ]
+  },
+  {
+    "title": "Pão de mel",
+    "type": "sweet",
+    "options": [
+      "Brigadeiro ou doce de leite, prestígio e trufado"
+    ]
+  },
+  {
+    "title": "Bem casado",
+    "type": "sweet",
+    "options": ["Doce de leite com nozes ou doce de leite"]
+  },
+  {
+    "title": "Camafeu de nozes",
+    "type": "sweet",
+    "options": []
+  },
+  {
+    "title": "Brigadeiro",
+    "type": "sweet",
+    "options": [
+      "Tradicional",
+      "Paçoca",
+      "Leite ninho",
+      "Café",
+      "Beijinho",
+      "Bicho de pé",
+      "Brigadeiro com morango",
+      "Leite ninho com morango",
+      "Surpresinha de uva"
+    ]
+  },
+  {
+    "title": "Empada",
+    "type": "snack",
+    "options": [
+      "Palmito",
+      "Camarão ou frango",
+      "Bacalhau",
+      "Escarola"
+    ]
+  },
+  {
+    "title": "Quiches",
+    "type": "snack",
+    "options": [
+      "Alho poró",
+      "Dois queijos",
+      "Bacalhau"
+    ]
+  },
+  {
+    "title": "Torta",
+    "type": "snack",
+    "options": [
+      "Frango com catupiry",
+      "palmito",
+      "legumes (milho, palmito, ervilha, azeitona, beringela, cenoura ralada e abobrinha)"
+    ]
+  },
+  {
+    "title": "Salgados Fritos",
+    "type": "snack",
+    "options": [
+      "Bolinho de queijo",
+      "Bolinho de carne",
+      "Coxinha",
+      "Risoles de presunto e queijo",
+      "Crispe de milho",
+      "Kibe"
+    ]
+  }
+]
